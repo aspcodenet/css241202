@@ -1,0 +1,29 @@
+:root{
+    --background-color: white; 
+    --header-text-color:white;
+    --secondary-color: hsl(233, 92%, 75%);
+    --primarybutton-color:#FAC748;
+    --box-shadow:2px 2px 2px lightgray;
+    --text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);    
+}
+
+.smallp {
+    color: black;
+    background-color:greenyellow;    
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 30px;
+    border-radius: 50px;
+    font-weight:700;
+    font-size:30px; 
+    color:black;
+    background-color: var(--primarybutton-color);
+    display:inline-block;  
+    box-shadow: var(--box-shadow); 
+
+
+
+}
