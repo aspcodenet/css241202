@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root{
     --background-color: white; 
     --header-text-color:white;
@@ -7,12 +9,20 @@
     --text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);    
 }
 
-.smallp {
-    color: black;
-    background-color:greenyellow;    
+*{
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
 }
 
-a {
+body{
+    background-color: var(--background-color);
+    font-family: 'Hubot Sans', sans-serif;
+
+}
+
+
+.primary-button {
     text-decoration: none;
     padding: 20px 40px;
     margin: 30px;
@@ -23,7 +33,11 @@ a {
     background-color: var(--primarybutton-color);
     display:inline-block;  
     box-shadow: var(--box-shadow); 
+    font-size: 20px;
+}
 
 
-
+.primary-button:hover{
+    background-color: white;
+    font-weight: bold;
 }
