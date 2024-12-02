@@ -22,6 +22,41 @@ body{
 }
 
 
+header{
+    background-color: black;
+    height: 80px;
+    padding: 40px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: var(--header-text-color);
+    font-weight: 700;
+}
+
+
+.headermenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap:20px;
+    list-style: none;
+}
+
+.headermenuitem{
+    text-decoration: none;
+    color:var(--header-text-color);
+    padding: 4px 10px;
+}
+
+
+.headermenuitem:hover{
+    background-color: var(--primarybutton-color);
+    /* padding: 4px 10px; */
+    border-radius: 5px;
+}
+
+
 .primary-button {
     text-decoration: none;
     padding: 20px 40px;
